@@ -133,7 +133,7 @@ const engineer_t faril = {
 ### 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=latverian&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&border_radius=12&bg_color=0A0E14&title_color=F5A524&icon_color=3DDCFF&text_color=C9D1D9&ring_color=3DDCFF" height="175" alt="GitHub stats" />
+  <img src="https://streak-stats.demolab.com?user=latverian&hide_border=true&border_radius=12&background=0A0E14&stroke=2A3644&ring=3DDCFF&fire=F5A524&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=3DDCFF&sideLabels=8B949E&dates=8B949E" height="175" alt="Contribution streak" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=latverian&layout=compact&langs_count=8&size_weight=0.5&count_weight=0.5&hide=assembly,batchfile,powershell,makefile,bitbake,linker%20script,mako,starlark,pascal&hide_border=true&border_radius=12&bg_color=0A0E14&title_color=F5A524&text_color=C9D1D9" height="175" alt="Top languages" />
 </div>
 
