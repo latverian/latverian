@@ -58,17 +58,6 @@ const engineer_t faril = {
 };
 ```
 
-### ⚡ Currently
-
-- ☀️ Building **SolarGuard** in the beVisioneers Fellowship: early warnings for off-grid village solar, over LoRa to a read-only website
-- 🏠 Built **Kosku**: boarding-house rent billed every morning and collected on WhatsApp (Next.js + PostgreSQL)
-- 📚 Learning how LLM apps work with **Balai Ilmu**: RAG over Universitas Riau's public documents, cited answers from a local model ([side project](https://faril-prwnhd.vercel.app/work/side/balai-ilmu))
-- 🎓 Recently defended my thesis on **edge-intelligent aquaculture monitoring**: reinforcement learning + TinyML + 5G N3IWF
-- 🧠 Squeezing neural networks into microcontrollers with **TinyML**
-- 🚁 Flying simulated drones with **ArduPilot + Gazebo** (no propellers were harmed)
-- 💬 Ask me about **RP2040, FreeRTOS, micro-ROS**, or why your I²C bus just froze
-- ⚡ Fun fact: half of my debugging is done with a single LED
-
 ### 🛠️ Tech Stack
 
 <div align="center">
