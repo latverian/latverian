@@ -1,4 +1,4 @@
-name: Generate Pac-Man contribution graph
+name: Generate profile images
 
 on:
   schedule:
@@ -20,6 +20,48 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           games: pacman
+
+      # Replaces the github-readme-stats top-languages card, which stopped responding.
+      # Same weighting as that card (sqrt of bytes x sqrt of repo count), public repos only.
+      - name: Generate the top-languages card
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require("fs");
+            const owner = context.repo.owner;
+            const skip = new Set(["Assembly", "Batchfile", "PowerShell", "Makefile", "BitBake", "Linker Script", "Mako", "Starlark", "Pascal"]);
+            const colors = { C: "#555555", "C++": "#f34b7d", Python: "#3572A5", TypeScript: "#3178c6", JavaScript: "#f1e05a", HTML: "#e34c26", CSS: "#663399", CMake: "#DA3434", Shell: "#89e051", Dockerfile: "#384d54", Vue: "#41b883" };
+            const repos = await github.paginate(github.rest.repos.listForUser, { username: owner, type: "owner", per_page: 100 });
+            const bytes = {}, count = {};
+            for (const r of repos) {
+              if (r.fork || r.archived || r.private || r.name === owner) continue;
+              const { data } = await github.rest.repos.listLanguages({ owner, repo: r.name });
+              for (const [lang, n] of Object.entries(data)) {
+                if (skip.has(lang)) continue;
+                bytes[lang] = (bytes[lang] || 0) + n;
+                count[lang] = (count[lang] || 0) + 1;
+              }
+            }
+            const score = Object.keys(bytes).map((l) => [l, Math.sqrt(bytes[l]) * Math.sqrt(count[l])]);
+            score.sort((a, b) => b[1] - a[1]);
+            const top = score.slice(0, 8);
+            const total = top.reduce((s, [, v]) => s + v, 0) || 1;
+            const W = 350, H = 175, PAD = 25, BAR = W - PAD * 2;
+            let x = PAD;
+            const bar = top.map(([l, v]) => {
+              const w = (v / total) * BAR;
+              const r = `<rect x="${x.toFixed(2)}" y="50" width="${w.toFixed(2)}" height="8" fill="${colors[l] || "#8b949e"}"/>`;
+              x += w;
+              return r;
+            }).join("");
+            const items = top.map(([l, v], i) => {
+              const cx = PAD + (i % 2) * 150, cy = 82 + Math.floor(i / 2) * 22;
+              const esc = l.replace(/&/g, "&amp;").replace(/</g, "&lt;");
+              return `<circle cx="${cx + 5}" cy="${cy - 4}" r="5" fill="${colors[l] || "#8b949e"}"/><text x="${cx + 16}" y="${cy}" class="t">${esc} ${(100 * v / total).toFixed(1)}%</text>`;
+            }).join("");
+            const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Most used languages"><style>.h{font:600 18px 'Segoe UI',Ubuntu,Sans-Serif;fill:#F5A524}.t{font:400 11px 'Segoe UI',Ubuntu,Sans-Serif;fill:#C9D1D9}</style><rect width="${W}" height="${H}" rx="12" fill="#0A0E14"/><text x="${PAD}" y="35" class="h">Most Used Languages</text><clipPath id="c"><rect x="${PAD}" y="50" width="${BAR}" height="8" rx="4"/></clipPath><g clip-path="url(#c)">${bar}</g>${items}</svg>`;
+            fs.mkdirSync("dist", { recursive: true });
+            fs.writeFileSync("dist/top-langs.svg", svg);
 
       - name: Push SVGs to the output branch
         uses: crazy-max/ghaction-github-pages@v5.0.0

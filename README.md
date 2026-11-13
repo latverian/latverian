@@ -16,6 +16,9 @@
   </p>
 
   <p align="center">
+    <a href="https://faril-prwnhd.vercel.app" target="_blank">
+      <img src="https://img.shields.io/badge/Portfolio-faril--prwnhd.vercel.app-111111?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio">
+    </a>
     <a href="https://www.linkedin.com/in/faril-pirwanhadi-6b692b2a4" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
     </a>
@@ -57,6 +60,8 @@ const engineer_t faril = {
 
 ### ⚡ Currently
 
+- ☀️ Building **SolarGuard** in the beVisioneers Fellowship: early warnings for off-grid village solar, over LoRa to a read-only website
+- 🏠 Built **Kosku**: boarding-house rent billed every morning and collected on WhatsApp (Next.js + PostgreSQL)
 - 🎓 Recently defended my thesis on **edge-intelligent aquaculture monitoring**: reinforcement learning + TinyML + 5G N3IWF
 - 🧠 Squeezing neural networks into microcontrollers with **TinyML**
 - 🚁 Flying simulated drones with **ArduPilot + Gazebo** (no propellers were harmed)
@@ -73,9 +78,9 @@ const engineer_t faril = {
 | **Embedded & RTOS** | ![Raspberry Pi Pico](https://img.shields.io/badge/Raspberry_Pi_Pico-A22846?style=flat-square&logo=raspberrypi&logoColor=white) ![Raspberry Pi + Sense HAT](https://img.shields.io/badge/Raspberry_Pi_%2B_Sense_HAT-A22846?style=flat-square&logo=raspberrypi&logoColor=white) ![FreeRTOS](https://img.shields.io/badge/FreeRTOS-3FB950?style=flat-square&logoColor=white) ![Pico SDK](https://img.shields.io/badge/Pico_SDK-C51A4A?style=flat-square) ![PIO + DMA](https://img.shields.io/badge/PIO_%2B_DMA-555555?style=flat-square) ![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white) |
 | **Robotics & Drones** | ![ROS 2](https://img.shields.io/badge/ROS_2-22314E?style=flat-square&logo=ros&logoColor=white) ![micro-ROS](https://img.shields.io/badge/micro--ROS-22314E?style=flat-square&logo=ros&logoColor=white) ![ArduPilot](https://img.shields.io/badge/ArduPilot-0B4F6C?style=flat-square) ![Gazebo](https://img.shields.io/badge/Gazebo-F58113?style=flat-square) ![MAVLink](https://img.shields.io/badge/MAVLink-3DDCFF?style=flat-square&logoColor=black) ![DroneKit](https://img.shields.io/badge/DroneKit-1F6FEB?style=flat-square) |
 | **AI / ML** | ![TensorFlow Lite Micro](https://img.shields.io/badge/TensorFlow_Lite_Micro-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![Reinforcement Learning](https://img.shields.io/badge/Reinforcement_Learning-8957E5?style=flat-square) ![TinyML](https://img.shields.io/badge/TinyML-F5A524?style=flat-square&logoColor=black) |
-| **Backend & Data** | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) |
-| **Frontend & Apps** | ![Vue 3](https://img.shields.io/badge/Vue_3-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white) ![React](https://img.shields.io/badge/React-149ECA?style=flat-square&logo=react&logoColor=white) ![Electron](https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white) ![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=flat-square&logo=leaflet&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) |
-| **Networking & Security** | ![5G N3IWF](https://img.shields.io/badge/5G_N3IWF-6E40C9?style=flat-square) ![IPsec](https://img.shields.io/badge/IPsec-30363D?style=flat-square) ![ML-KEM / Kyber](https://img.shields.io/badge/ML--KEM_%2F_Kyber-238636?style=flat-square) |
+| **Backend & Data** | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) |
+| **Frontend & Apps** | ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![Vue 3](https://img.shields.io/badge/Vue_3-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white) ![React](https://img.shields.io/badge/React-149ECA?style=flat-square&logo=react&logoColor=white) ![Electron](https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white) ![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=flat-square&logo=leaflet&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) |
+| **Networking & Security** | ![5G N3IWF](https://img.shields.io/badge/5G_N3IWF-6E40C9?style=flat-square) ![LoRa](https://img.shields.io/badge/LoRa-1D9A6C?style=flat-square) ![IPsec](https://img.shields.io/badge/IPsec-30363D?style=flat-square) ![ML-KEM / Kyber](https://img.shields.io/badge/ML--KEM_%2F_Kyber-238636?style=flat-square) |
 | **Tools & Testing** | ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white) ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
 
 </div>
@@ -85,6 +90,20 @@ const engineer_t faril = {
 ### 🚀 Featured Projects
 
 <table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🏠 <a href="https://github.com/latverian/kosku">Kosku</a></h4>
+      <sub><a href="https://faril-prwnhd.vercel.app/work/kosku">case study</a> · v1.0, runs end to end in a local simulation</sub>
+      <p>Property management for <b>Indonesian boarding houses</b>: invoices written every morning, WhatsApp reminders through an <b>outbox with retries</b>, online payments accepted only after the webhook is verified twice, and a tenant portal behind a signed link. Triggers, unique keys, and <b>row-level security</b> guard the money.</p>
+      <sub><code>Next.js 16</code> <code>TypeScript</code> <code>PostgreSQL</code> <code>Drizzle</code> <code>Midtrans</code></sub>
+    </td>
+    <td width="50%" valign="top">
+      <h4>☀️ SolarGuard</h4>
+      <sub>🔒 private · <a href="https://faril-prwnhd.vercel.app/work/solarguard">case study</a> · beVisioneers Fellowship</sub>
+      <p>An early-warning monitor for <b>off-grid solar in Indonesian villages</b>: a Raspberry Pi 5 watches eight points on the system, raises local alerts with no internet, and reports over <b>LoRa</b> to a read-only website. Bench prototype, with a simulator standing in for the hardware.</p>
+      <sub><code>Raspberry Pi 5</code> <code>LoRa</code> <code>FastAPI</code> <code>SQLite</code> <code>React</code></sub>
+    </td>
+  </tr>
   <tr>
     <td width="50%" valign="top">
       <h4>🐟 <a href="https://github.com/latverian/edge-intelligent-aquaculture">Edge-Intelligent Aquaculture Monitoring</a></h4>
@@ -134,7 +153,7 @@ const engineer_t faril = {
 
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=latverian&hide_border=true&border_radius=12&background=0A0E14&stroke=2A3644&ring=3DDCFF&fire=F5A524&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=3DDCFF&sideLabels=8B949E&dates=8B949E" height="175" alt="Contribution streak" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=latverian&layout=compact&langs_count=8&size_weight=0.5&count_weight=0.5&hide=assembly,batchfile,powershell,makefile,bitbake,linker%20script,mako,starlark,pascal&hide_border=true&border_radius=12&bg_color=0A0E14&title_color=F5A524&text_color=C9D1D9" height="175" alt="Top languages" />
+  <img src="https://raw.githubusercontent.com/latverian/latverian/output/top-langs.svg" height="175" alt="Most used languages across my public repositories" />
 </div>
 
 ---
