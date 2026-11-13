@@ -146,6 +146,20 @@ const engineer_t faril = {
       <sub><code>C</code> <code>C++</code> <code>FreeRTOS</code> <code>micro-ROS</code> <code>ROS 2</code></sub>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>📚 <a href="https://github.com/latverian/unri-ai">Balai Ilmu</a></h4>
+      <sub>side project · <a href="https://faril-prwnhd.vercel.app/work/side/balai-ilmu">write-up</a> · learning how LLM apps work</sub>
+      <p>Q&amp;A over Universitas Riau's public documents with <b>RAG</b>: 573 chunks in Chroma, the top 4 above a similarity floor go to <b>qwen2.5:3b</b> in Ollama, and the answer streams back over SSE with <b>[n] citations</b>. Uncited answers count as not found.</p>
+      <sub><code>FastAPI</code> <code>Chroma</code> <code>Ollama</code> <code>Gemini</code> <code>React</code></sub>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🌐 <a href="https://faril-prwnhd.vercel.app/work">Everything else</a></h4>
+      <sub>faril-prwnhd.vercel.app</sub>
+      <p>Case studies with animated walkthroughs of how each system moves its data, recordings of the real apps, and the side projects that taught me the low-level parts.</p>
+      <sub><code>Case studies</code> <code>Side projects</code> <code>Competitions</code> <code>Publications</code></sub>
+    </td>
+  </tr>
 </table>
 
 ---
