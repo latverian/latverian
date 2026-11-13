@@ -153,7 +153,7 @@ const engineer_t faril = {
 
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=latverian&hide_border=true&border_radius=12&background=0A0E14&stroke=2A3644&ring=3DDCFF&fire=F5A524&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=3DDCFF&sideLabels=8B949E&dates=8B949E" height="175" alt="Contribution streak" />
-  <img src="https://raw.githubusercontent.com/latverian/latverian/output/top-langs.svg" height="175" alt="Most used languages across my public repositories" />
+  <img src="https://raw.githubusercontent.com/latverian/latverian/output/top-langs.svg?v=2" height="175" alt="Most used languages across my public repositories" />
 </div>
 
 ---
